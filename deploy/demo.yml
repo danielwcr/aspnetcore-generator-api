@@ -2,7 +2,7 @@ version: '3'
 
 services:
   generator:
-    image: my-registry:55000/gen:ci-${GENERATOR_BUILD_NUMBER-14}
+    image: my-registry:55000/gen:ci-${GENERATOR_BUILD_NUMBER-18}
     ports:
       - "${PORT_GENERATOR-8080}:80"
   mail:
